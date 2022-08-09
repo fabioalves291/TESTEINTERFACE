@@ -1,3 +1,8 @@
 #! usr/bin/python3
 from PyQT5.QtWidgets import QApplication, QLabel, QWidget
+import sys
 
+app         =   QApplication([])         
+label       =   Qlabel('Hello')
+label.show()
+app.exec_()
